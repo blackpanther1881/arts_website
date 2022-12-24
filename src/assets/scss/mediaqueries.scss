@@ -1,0 +1,316 @@
+
+
+@media only screen and (max-width: 1200px) {
+  .workshop-section .list{
+    justify-content: center;
+    .item .img-section{
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-banner {
+    padding: 40px 0;
+    .banner-image{
+      width: 100%;
+      position: relative;
+      margin-top: 8rem;
+      top: auto;
+      left: auto;
+      transform: initial;
+      img{
+        width: 100%;
+      }
+      .letters-box {
+        .letter{
+          &:first-child{
+            top: 80%;
+          }
+          &:last-child{
+            top: 80%;
+          }
+        }
+      }
+    }
+    .text-right, .text-left{
+      display: none;
+    }
+  }
+  .slider-section {
+    padding: 50px 0;
+    .slider-container{
+    flex-direction: column;
+    height: auto;
+    .slider-images{
+      flex: none;
+      height: 100vw;
+    }
+  }}
+  .section-gallery {
+    padding: 40px;
+    display: block;
+    img{
+      padding-bottom: 30px;
+    }
+    .left{
+      max-width: 100%;
+      img{
+        &:nth-child(2){
+          margin: 0;
+        }
+      }
+
+    }
+    .right{
+      max-width: 100%;
+      margin: 0;
+
+      .image-container{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+ .section-banner.studio {
+   width: 100%;
+   .banner-image {
+     //width: 70%;
+     //left: 50%;
+     //position: absolute;
+     //top: 65%;
+     //transform: translate(-50%, -50%);
+     width: 100%;
+     position: relative;
+     margin-top: 8rem;
+     top: auto;
+     left: auto;
+     transform: initial;
+   }
+ }
+  .collaboration-section {
+    .box1, .box2{
+      -webkit-box-flex: 0!important;
+      margin-left: 8.33333vw !important;
+      -ms-flex: 0 0 83.33333%!important;
+      flex: 0 0 83.33333%!important;
+      max-width: 83.33333%!important;
+    }
+    .box2{
+      margin-top: 1.5625rem;
+    }
+  }
+  .gallery-quote-section {
+    padding: 100px 0 0 0;
+    .container{
+      margin-left: 8.33333% !important;
+      padding: 0;
+      width: auto;
+    }
+    .content{
+    font-size: 40px;
+  }
+  }
+  .section-charcoal-art{
+    .left, .right{
+      margin-top: 4.6875rem;
+      margin-left: 8.33333% !important;
+      -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 83.33333% !important;
+      flex: 0 0 83.33333% !important;
+      max-width: 83.33333% !important;
+      padding: 0;
+
+    }
+    .right {
+      display: block;
+      img{
+      width: 100%;
+    }
+    }
+  }
+  .art .section-acrylics-art {
+    .left-image1 , .header, .left-image2, .content{
+      margin-top: 4.6875rem;
+      margin-left: 8.33333%!important;
+      -webkit-box-flex: 0!important;
+      -ms-flex: 0 0 83.33333%!important;
+      flex: 0 0 83.33333%!important;
+      max-width: 83.33333%!important;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .section-pencil-art{
+    .content, .right-image1, .right-image2{
+      margin-top: 4.6875rem;
+      margin-left: 8.33333%!important;
+      -webkit-box-flex: 0!important;
+      -ms-flex: 0 0 83.33333%!important;
+      flex: 0 0 83.33333%!important;
+      max-width: 83.33333%!important;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    background: #fff;
+  }
+  .app-nav .navbar-light .navbar-nav .nav-link{
+    padding: 20px 1rem;
+    &.active{
+      border: 0px solid;
+    }
+  }
+  .trans-section .container {
+    justify-content: center;
+    .left{
+      text-align: center;
+      max-width:100%;
+    }
+    .right{
+      max-width:100%;
+      margin-top: 2rem;
+    }
+  }
+  .cart-section {
+    .item{
+      flex-wrap: wrap;
+      .left{
+        width: 100%;
+      }
+      .right{
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .app-nav .navbar{
+    padding: 1rem;
+  }
+  .quote-section {
+    padding-top: 120px;
+    .text p{
+      font-size: 28px;
+    }
+  }
+  .section-banner{
+    .content {
+      .title{
+        font-size: 36px;
+        line-height: 36px;
+      }
+      .qoute{
+        font-size: 22px;
+        line-height: 22px;
+      }
+    }
+    .profile-section img {
+      width: 30%;
+      height:auto;
+    }
+  }
+  .trans-section .container {
+    justify-content: center;
+    padding: 50px 15px;
+  }
+  .subscribe-section .heading{
+    font-size: 28px;
+  }
+  .store-section {
+    padding: 70px 0;
+    .list{
+      justify-content: center;
+    }
+  }
+  .cart-section {
+    padding: 70px 0;
+  }
+  .section-exhibitions .exhibitions-list .img-section{
+    height: auto;
+  }
+  .workshop-section {
+    padding: 70px 0;
+
+    .list {
+      justify-content: center;
+    }
+  }
+  .ril__caption .ril-caption-content .img-caption{
+    display: block;
+  }
+  .section-commission-banner .content{
+    left: auto;
+  }
+  .section-commission-form{
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .section-banner.studio {
+    height: 100vw;
+  }
+  .gallery-quote-section .content {
+    font-size: 32px;
+    .author{
+      display: block;
+      margin: 0;
+    }
+  }
+  .section-banner {
+    padding-top: 0;
+    .content {
+      top: -20px;
+      .title {
+        font-size: 26px;
+        line-height: 1;
+      }
+
+      .qoute {
+        font-size: 16px;
+        line-height: 1;
+      }
+    }
+  }
+  .footer-section {
+    .item-list{
+      text-align: center;
+      display: block;
+      .item{
+        margin: 0 0 2rem 0;
+      }
+    }
+    .bottom-content{
+      display: block;
+      text-align: center;
+      .date{
+        margin: 1rem 0;
+      }
+    }
+  }
+  .quote-section{
+    padding: 50px 0;
+    .text p{
+      font-size: 20px;
+    }
+  }
+  .trans-section {
+    .container {
+      .left .title{
+        font-size: 22px;
+      }
+    }
+  }
+  .subscribe-section .heading{
+    font-size: 22px;
+  }
+
+}
